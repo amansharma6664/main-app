@@ -9,6 +9,7 @@ module.exports = {
     port: 3000,
   },
   output: {
+    path: path.resolve(__dirname, 'dist'),
     publicPath: "auto",
     uniqueName: "main_app" 
   },
