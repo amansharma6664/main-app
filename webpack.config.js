@@ -30,6 +30,7 @@ module.exports = {
   plugins: [
     new ModuleFederationPlugin({
       name: "main_app",
+      filename: "remoteEntry.js",
       remotes: {
         music_library: "music_library@https://music-library-aman.netlify.app/remoteEntry.js"
       },
