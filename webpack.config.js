@@ -30,7 +30,7 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "main_app",
       remotes: {
-        music_library: "music_library@http://localhost:3001/remoteEntry.js",
+        music_library: "music_library@https://music-library-aman.netlify.app/remoteEntry.js",
       },
       shared: { react: { singleton: true }, "react-dom": { singleton: true } },
     }),
