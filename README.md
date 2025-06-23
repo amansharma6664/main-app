@@ -33,7 +33,7 @@ This is the main container app built using **React** and **Webpack 5 Module Fede
 - Webpack 5 + Module Federation
 - React.lazy + Suspense for remote loading
 - LocalStorage (mock JWT auth)
-- Tailored inline CSS (no external UI library)
+- Tailored inline CSS (no external UI library) 
 
 ---
 
