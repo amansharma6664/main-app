@@ -15,7 +15,7 @@ This is the main container app built using **React** and **Webpack 5 Module Fede
 
 ---
 
-## 👤 Roles & Credentials
+## Roles & Credentials
 
 | Role   | Username | Password   |
 |--------|----------|------------|
