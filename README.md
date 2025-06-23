@@ -1,43 +1,45 @@
 # 🧩 Main App – Micro Frontend Container
 
-This is the main container app built with React and Webpack 5. It uses **Module Federation** to dynamically load the Music Library micro frontend at runtime.
+This is the main container app built using **React** and **Webpack 5 Module Federation**. It dynamically loads the Music Library micro frontend at runtime.
 
 ---
 
 ## 🚀 Features
 
-- Role-based authentication (Admin/User)
-- Dynamically loads `music-library` via Module Federation
+- Micro Frontend architecture with Module Federation
+- Role-based login for Admin and User
 - Admin can add and delete songs
-- Users can view, filter, sort, and group songs
-- Dark-themed responsive UI
+- User can view, search, filter, sort, and group songs
+- Dark theme with responsive UI
+- Songs managed locally using React state and hooks
 
----   
+---
 
-## 👥 Login Roles
+## 👤 Roles & Credentials
 
-- **Admin**: Can add and delete songs
-- **User**: Can only view and filter songs
+| Role   | Username | Password   |
+|--------|----------|------------|
+| Admin  | `admin`  | `admin123` |
+| User   | `user`   | `user123`  |
 
-To test roles:
-- Click **Login as Admin** or **Login as User** on the login screen
+- 🔒 Admin: Full access (add/delete songs)
+- 👀 User: Read-only access (view + filter/sort)
 
 ---
 
 ## 🧰 Tech Stack
 
-- React (Functional Components + Hooks)
+- React (with Hooks)
 - Webpack 5 + Module Federation
-- Lazy loading using `React.lazy` + `Suspense`
-- LocalStorage for mock authentication (JWT-like)
+- React.lazy + Suspense for remote loading
+- LocalStorage (mock JWT auth)
+- Tailored inline CSS (no external UI library)
 
 ---
 
-## 📦 Run Locally
+## 📦 How to Run Locally
 
-Make sure you have the `music-library` project also cloned and running.
-
-1. Clone this repo:
+1. Clone the repo:
    ```bash
    git clone https://github.com/amansharma6664/main-app.git
    cd main-app
