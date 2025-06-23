@@ -1,10 +1,10 @@
-# 🧩 Main App – Micro Frontend Container
+# Main App – Micro Frontend Container
 
 This is the main container app built using **React** and **Webpack 5 Module Federation**. It dynamically loads the Music Library micro frontend at runtime.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Micro Frontend architecture with Module Federation
 - Role-based login for Admin and User
@@ -22,12 +22,12 @@ This is the main container app built using **React** and **Webpack 5 Module Fede
 | Admin  | `admin`  | `admin123` |
 | User   | `user`   | `user123`  |
 
-- 🔒 Admin: Full access (add/delete songs)
-- 👀 User: Read-only access (view + filter/sort)
+- Admin: Full access (add/delete songs)
+- User: Read-only access (view + filter/sort)
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - React (with Hooks)
 - Webpack 5 + Module Federation
@@ -37,7 +37,7 @@ This is the main container app built using **React** and **Webpack 5 Module Fede
 
 ---
 
-## 📦 How to Run Locally
+## How to Run Locally
 
 1. Clone the repo:
    ```bash
