@@ -2,7 +2,7 @@
   "name": "main-app",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
+  "scripts": { 
     "start": "webpack serve --mode development --open",
     "build": "webpack --mode production"
   },

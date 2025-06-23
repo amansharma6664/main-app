@@ -1,7 +1,7 @@
 // src/Login.js
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
+ 
 const USERS = {
   admin: { password: "admin123", role: "admin" },
   user: { password: "user123", role: "user" }
