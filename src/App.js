@@ -113,7 +113,7 @@ const buttonStyle = {
 const logoutStyle = {
   ...buttonStyle,
   marginTop: "10px"
-};
+}; 
 
 const hoverIn = (e) => {
   e.target.style.backgroundColor = "#fff";
