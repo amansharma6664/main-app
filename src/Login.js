@@ -1,4 +1,3 @@
-// src/Login.js
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
  
@@ -21,7 +20,7 @@ const Login = ({ setAuth }) => {
       };
       localStorage.setItem("auth", JSON.stringify(userData));
       setAuth(userData);
-      navigate("/"); // or your dashboard route
+      navigate("/"); 
     } else {
       setError("Invalid username or password");
     }
